@@ -1,0 +1,58 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * halyard-display:
+ *   - http://typekit.com/eulas/00000000000000003b9b40dd
+ * moret:
+ *   - http://typekit.com/eulas/00000000000000003b9b379b
+ *   - http://typekit.com/eulas/00000000000000003b9b37a1
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-12-11 15:02:54 UTC"}*/
+
+/* @import url("https://p.typekit.net/p.css?s=1&k=zvj1jsw&ht=tk&f=34664.43128.43134&a=1494256&app=typekit&e=css"); */
+
+@font-face {
+  font-family: "halyard-display";
+  src: url("./fonts/halyard-display-regular.woff2") format("woff2"),
+  url("./fonts/halyard-display-regular.woff") format("woff"),
+  url("./fonts/halyard-display-regular.otf") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "moret";
+  src: url("./fonts/moret-regular.woff2") format("woff2"),
+  url("./fonts/moret-regular.woff") format("woff"),
+  url("./fonts/moret-regular.otf") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "moret";
+  src: url("./fonts/moret-bold.woff2") format("woff2"),
+  url("./fonts/moret-bold.woff") format("woff"),
+  url("./fonts/moret-bold.otf") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+.tk-halyard-display {
+  font-family: "halyard-display", sans-serif;
+}
+
+.tk-moret {
+  font-family: "moret", serif;
+}
